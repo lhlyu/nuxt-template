@@ -1,0 +1,34 @@
+{
+  "name": "nuxt-template",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "fmt": "bun --bun oxfmt",
+    "lint": "bun --bun nuxt typecheck && bun --bun oxlint",
+    "lint:fix": "bun --bun oxlint --fix",
+    "postinstall": "nuxt prepare",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@nuxt/icon": "^2.6.3",
+    "@nuxtjs/mcp-toolkit": "^0.24.3",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@vueuse/core": "^15.0.0",
+    "@vueuse/nuxt": "^15.0.0",
+    "nuxt": "^4.6.4",
+    "nuxt-auth-utils": "^0.6.2",
+    "vue": "^3.5.46",
+    "vue-router": "^5.5.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.158",
+    "@types/node": "^26.6.6",
+    "oxfmt": "^0.79.0",
+    "oxlint": "^1.94.0",
+    "typescript": "~5.9.3",
+    "vue-tsc": "^3.3.14"
+  }
+}

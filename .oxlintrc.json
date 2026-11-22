@@ -1,0 +1,7 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["vue", "promise", "typescript", "oxc", "unicorn"],
+  "env": {
+    "builtin": true
+  }
+}
